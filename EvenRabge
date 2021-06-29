@@ -1,0 +1,18 @@
+Class EvenRage
+{
+public static void main (String args[])
+{
+int i,j;
+Scanner s=new Scanner (System.in);
+System.out.println("Enter lower range:");
+i=s.nextInt();
+System.out.println("Enter upper range:");
+j=s.nextInt();
+while(i>=j)
+{
+if (i%2==0){
+System.out.println(" "+i);
+i--;}
+}
+}
+}
